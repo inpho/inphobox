@@ -51,7 +51,7 @@ Getting the page to display at least the name, a link to the Wiki entry, and a
 link to the InPhO page is progress worth writing us about. We also would like to
 see how far you can take this project in about 5 hours, so move on to attempt
 the advanced tasks. Attach your modified `index.html` to the e-mail, along with
-notes on your progress.
+progress notes.
 
 Tips
 ------
