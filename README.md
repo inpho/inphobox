@@ -86,8 +86,8 @@ Other ideas are encouraged!
 *   Read the thinker ID from the URL hash parameter (e.g., "index.html#3724")
     or query string (more advanced; e.g., "index.html?id=3724"). Use this ID to
     render any thinker dynamically (3345 is a good test).
-*   Create a failure callback function for the `jQuery.get()` or
-    `jQuery.getJSON()` call that displays a message when there is an API error.
+*   Create an `error` callback function for `jQuery.getJSON()` that displays a
+    message when there is an API error.
 *   Query the API by name using the list interface, then query the first result
     to render the information. https://inpho.cogs.indiana.edu/thinker.json?q=Plato
 *   Create a way to handle multiple results from the name API. (e.g., [/thinker.json?q=David](https://inpho.cogs.indiana.edu/thinker.json?q=David))
