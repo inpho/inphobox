@@ -78,12 +78,12 @@ Other ideas are encouraged!
 *   Read the thinker ID from the query string (e.g., "index.html?id=3724") and
     use the arbitrary API call function to populate the page.
 *   Query the API by name using the list interface:
-    (https://inpho.cogs.indiana.edu/thinker.json?q=Plato)
+    https://inpho.cogs.indiana.edu/thinker.json?q=Plato
 *   Create a way to handle multiple results from the name API. (e.g., https://inpho.cogs.indiana.edu/thinker.json?q=David)
 *   Load Mustache template from an external file.
 *   Load dbpedia information using "wiki" field of the InPhO JSON data. 
-    The URL for the DBpedia JSON export is: (http://dbpedia.org/data/Plato.json). 
-    The URL for the DBpedia viewer is: (http://dbpedia.org/page/Plato)
+    The URL for the DBpedia JSON export is: http://dbpedia.org/data/Plato.json . 
+    The URL for the DBpedia viewer is: http://dbpedia.org/page/Plato
 *   Register for [GitHub](http://github.com), fork the
     [inpho/inphobox](http://github.com/inpho/inphobox) repository, and push your
     work to GitHub.
