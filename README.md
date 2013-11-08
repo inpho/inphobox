@@ -80,8 +80,11 @@ Other ideas are encouraged!
 *   Create a function to make an arbitrary InPhO API URL or full API call 
     and use it to get label information for "related_thinkers", "students", 
     "teachers" fields. Link to these entries in InPhO.
-*   Read the thinker ID from the URL hash parameter (e.g. "index.html#3724")
-    or query string (e.g., "index.html?id=3724", more advanced).
+*   Read the thinker ID from the URL hash parameter (e.g., "index.html#3724")
+    or query string (more advanced; e.g., "index.html?id=3724"). Use this ID to
+    render any thinker dynamically.
+*   Create a failure callback function for the `jQuery.get()` or
+    `jQuery.getJSON()` call that displays a message when there is an API error.
 *   Query the API by name using the list interface, then query the first result
     to render the information. https://inpho.cogs.indiana.edu/thinker.json?q=Plato
 *   Create a way to handle multiple results from the name API. (e.g., [/thinker.json?q=David](https://inpho.cogs.indiana.edu/thinker.json?q=David))
