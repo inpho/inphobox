@@ -60,6 +60,7 @@ Resources
 -----------
 *   [How jQuery Works] (http://learn.jquery.com/about-jquery/how-jquery-works/)
 *   [CSS Tutorial](http://learn.shayhowe.com/html-css/)
+*   A Mustache.js tutorial is not linked.
 
 *   [jQuery Documentation](http://api.jquery.com/)
 *   [Mustache.js Documentation](http://mustache.github.io/mustache.5.html)
