@@ -7,7 +7,9 @@ to integrate with the InPhO Project development given some skeleton code and
 documentation. 
 
 You will be working with a HTML file that imports three libraries used
-throughout the InPhO Project: 
+throughout the InPhO Project. These libraries were selected due to very
+large userbases and support communities on [Google](http://google.com) and
+[StackOverflow](http://stackoverflow.com).
 *   **[jQuery](http://jquery.com)** is a
 general purpose JavaScript library used primarily for API calls and client-side
 behavior. 
@@ -15,9 +17,7 @@ behavior.
 stored in JSON format
 *   **[Bootstrap 2](http://getbootstrap.com/2.3.2/)** is a CSS framework used to make websites
 pretty. 
-These libraries have large userbases and are ubiquitous in web development,
-making them easy to find on (Google)[http://google.com] and
-(StackOverflow)[http://stackoverflow.com].
+
 
 Creating a basic InPhObox displaying the name should take fewer than 5 hours,
 even with no web development experience. We are largely looking at your ability
