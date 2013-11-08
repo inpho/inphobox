@@ -77,13 +77,13 @@ Advanced Ideas
 These are starting points once you can render the thinker's label on the page.
 Other ideas are encouraged!
 
-*   Create function for arbitrary API call and use to 
-    get label information for "related_thinkers", "students", 
+*   Create a function to make an arbitrary InPhO API URL or full API call 
+    and use it to get label information for "related_thinkers", "students", 
     "teachers" fields. Link to these entries in InPhO.
-*   Read the thinker ID from the query string (e.g., "index.html?id=3724") and
-    use the arbitrary API call function to populate the page.
-*   Query the API by name using the list interface:
-    https://inpho.cogs.indiana.edu/thinker.json?q=Plato
+*   Read the thinker ID from the URL hash parameter (e.g. "index.html#3724")
+    or query string (e.g., "index.html?id=3724", more advanced).
+*   Query the API by name using the list interface, then query the first result
+    to render the information. https://inpho.cogs.indiana.edu/thinker.json?q=Plato
 *   Create a way to handle multiple results from the name API. (e.g., [/thinker.json?q=David](https://inpho.cogs.indiana.edu/thinker.json?q=David))
 *   Load Mustache template from an external file.
 *   Load dbpedia information using "wiki" field of the InPhO JSON data. 
@@ -103,3 +103,6 @@ method), it will not work if you are just loading the file from the filesystem
 due to an Access-Control-Allow-Origin error. If you host the page on Mypage
 or another hosting service it should work. Contact Jaimie (IU name: jammurdo) 
 if you get stuck on this.
+
+Use Google, borrow code, cite your sources. Thousands of people have dealt with
+accessing query strings in Javascript, for example.
