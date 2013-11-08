@@ -79,7 +79,7 @@ Other ideas are encouraged!
     use the arbitrary API call function to populate the page.
 *   Query the API by name using the list interface:
     https://inpho.cogs.indiana.edu/thinker.json?q=Plato
-*   Create a way to handle multiple results from the name API. (e.g., https://inpho.cogs.indiana.edu/thinker.json?q=David)
+*   Create a way to handle multiple results from the name API. (e.g., [/thinker.json?q=David](https://inpho.cogs.indiana.edu/thinker.json?q=David))
 *   Load Mustache template from an external file.
 *   Load dbpedia information using "wiki" field of the InPhO JSON data. 
     The URL for the DBpedia JSON export is: http://dbpedia.org/data/Plato.json . 
