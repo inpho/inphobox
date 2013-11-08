@@ -59,4 +59,5 @@ Resources
 *   [Mustache.js Documentation](http://mustache.github.io/mustache.5.html)
 *   [Bootstrap 2.3.2 Documentation](http://getbootstrap.com/2.3.2/)
 *   [Mustache.js JavaScript Implementation](https://github.com/janl/mustache.js)
-*   JavaScript tutorials
+*   [CSS Tutorial](http://learn.shayhowe.com/html-css/)
+
