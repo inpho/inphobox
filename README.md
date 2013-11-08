@@ -47,6 +47,10 @@ https://inpho.cogs.indiana.edu/thinker/3724.json.
 All libraries are already imported in the `index.html` starter file. What you
 need to work on is code.
 
+Getting the page to display at least the name, a link to the Wiki entry, and a
+link to the InPhO page is progress worth writing us about. Attach your modified
+`index.html` to the e-mail.
+
 Tips
 ------
 To help with developing your template, you can use the [mustache.js demo
@@ -56,14 +60,6 @@ template and the JSON data with the data from the API call.
 To help making the information more presentable, the
 [Bootstrap 2.3.2 documentation](http://getbootstrap.com/2.3.2/)
 has many examples that will help you.
-
-
-Benchmarks
-------------
-1.  Able to display data based on the Plato InPhO record.
-2.  Able to display data from an arbitrary InPhO thinker record. 
-(Display has been encapsulated into a single callable function).
-3.  Able to display data from multiple sources (i.e., InPhO and dbpedia).
 
 Resources
 -----------
