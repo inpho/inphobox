@@ -85,7 +85,7 @@ Other ideas are encouraged!
     "teachers" fields. Link to these entries in InPhO.
 *   Read the thinker ID from the URL hash parameter (e.g., "index.html#3724")
     or query string (more advanced; e.g., "index.html?id=3724"). Use this ID to
-    render any thinker dynamically (3345 is a good ID to test).
+    render any thinker dynamically (3345 is a good test).
 *   Create a failure callback function for the `jQuery.get()` or
     `jQuery.getJSON()` call that displays a message when there is an API error.
 *   Query the API by name using the list interface, then query the first result
