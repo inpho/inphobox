@@ -7,12 +7,17 @@ to integrate with the InPhO Project development given some skeleton code and
 documentation. 
 
 You will be working with a HTML file that imports three libraries used
-throughout the InPhO Project: jQuery, Mustache.js, and Bootstrap. jQuery is a
+throughout the InPhO Project: 
+*   **[jQuery](http://jquery.com)** is a
 general purpose JavaScript library used primarily for API calls and client-side
-behavior. Mustache.js is a client-side templating engine used to display data
-stored in JSON format. Bootstrap is a CSS framework used to make websites
-pretty. All three libraries are ubiquitous in web development, and have very
-large userbases, making them easy to find help using Google and StackOverflow.
+behavior. 
+*   **[Mustache.js](http://mustache.github.io/)** is a client-side templating engine used to display data
+stored in JSON format
+*   **[Bootstrap 2](http://getbootstrap.com/2.3.2/)** is a CSS framework used to make websites
+pretty. 
+These libraries have large userbases and are ubiquitous in web development,
+making them easy to find on (Google)[http://google.com] and
+(StackOverflow)[http://stackoverflow.com].
 
 Creating a basic InPhObox displaying the name should take fewer than 5 hours,
 even with no web development experience. We are largely looking at your ability
