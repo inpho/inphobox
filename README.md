@@ -22,7 +22,7 @@ pretty.
 Creating a basic InPhObox displaying the name should take fewer than 5 hours,
 even with no web development experience. We are largely looking at your ability
 for self-instruction, ability to search for examples, and creativity. Additional
-tasks for extending the InPhOboxes are listed at the end and are highly
+tasks for extending the InPhOboxes are listed at the end and are *highly*
 encouraged.
 
 The Task
@@ -48,9 +48,10 @@ All libraries are already imported in the `index.html` starter file. What you
 need to work on is code.
 
 Getting the page to display at least the name, a link to the Wiki entry, and a
-link to the InPhO page is progress worth writing us about. Attach your modified
-`index.html` to the e-mail. This is a research project though, so first
-attempting the advanced tasks is *highly* encouraged ;)
+link to the InPhO page is progress worth writing us about. We also would like to
+see how far you can take this project in about 5 hours, so move on to attempt
+the advanced tasks. Attach your modified `index.html` to the e-mail, along with
+notes on your progress.
 
 Tips
 ------
