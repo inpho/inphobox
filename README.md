@@ -40,9 +40,10 @@ entry](https://inpho.cogs.indiana.edu/thinker/3724).
 2.  Using the [jQuery.getJSON()](http://api.jquery.com/jQuery.getJSON/)
 function, query the InPhO API for the Plato entry at 
 https://inpho.cogs.indiana.edu/thinker/3724.json.
-3.  Take the data and render it to the page using 
+3.  Render the name to the `#renderHere div` using 
 [mustache.js](http://mustache.github.io/mustache.5.html).
-4.  To make the data presentable, use [Bootstrap 2.3.2](http://getbootstrap.com/2.3.2/index.html).
+4.  Modify the template to include a link to the Wikipedia page and the InPhO entry.
+5.  To make the data more presentable, examples in the [Bootstrap 2.3.2](http://getbootstrap.com/2.3.2/index.html) may help.
 
 All libraries are already imported in the `index.html` starter file. What you
 need to work on is code.
@@ -50,8 +51,8 @@ need to work on is code.
 Getting the page to display at least the name, a link to the Wiki entry, and a
 link to the InPhO page is progress worth writing us about. We also would like to
 see how far you can take this project in about 5 hours, so move on to attempt
-the advanced tasks. Attach your modified `index.html` to the e-mail, along with
-progress notes.
+the advanced tasks and display more information. Attach your modified
+`index.html` to the e-mail, along with progress notes.
 
 Tips
 ------
@@ -78,12 +79,13 @@ Advanced Ideas
 These are starting points once you can render the thinker's label on the page.
 Other ideas are encouraged!
 
+*   Render the birth and death dates, if present.
 *   Create a function to make an arbitrary InPhO API URL or full API call 
     and use it to get label information for "related_thinkers", "students", 
     "teachers" fields. Link to these entries in InPhO.
 *   Read the thinker ID from the URL hash parameter (e.g., "index.html#3724")
     or query string (more advanced; e.g., "index.html?id=3724"). Use this ID to
-    render any thinker dynamically.
+    render any thinker dynamically (3345 is a good ID to test).
 *   Create a failure callback function for the `jQuery.get()` or
     `jQuery.getJSON()` call that displays a message when there is an API error.
 *   Query the API by name using the list interface, then query the first result
