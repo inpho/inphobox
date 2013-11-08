@@ -29,19 +29,23 @@ The Task
 -----------
 Create an InPhObox similar to the infoboxes displayed alongside [Google search
 results](https://www.google.com/search?q=plato) or [Wikipedia
-entries](http://en.wikipedia.org/wiki/Plato). To do this, you will need to query
-the InPhO JSON API to return data from our database using the [jQuery
-library](http://jquery.com/) and display it on a web page using the [Mustache 
-templating engine](http://mustache.github.io/). We request that you do this
-using the [Plato InPhO entry](https://inpho.cogs.indiana.edu/thinker/3724).
+entries](http://en.wikipedia.org/wiki/Plato). To do this, you will need to use
+the [jQuery library](http://jquery.com/) to query the [InPhO
+API](https://inpho.cogs.indiana.edu/docs/) for data to display on a web page
+using the [Mustache templating engine](http://mustache.github.io/).  We request
+that you do this using the [Plato InPhO
+entry](https://inpho.cogs.indiana.edu/thinker/3724).
 
 1.  Download the starter files as a [zip archive](https://github.com/inpho/inphobox/archive/master.zip).
 2.  Using the [jQuery.getJSON()](http://api.jquery.com/jQuery.getJSON/)
 function, query the InPhO API for the Plato entry at 
-[https://inpho.cogs.indiana.edu/thinker/3724.json].
+https://inpho.cogs.indiana.edu/thinker/3724.json.
 3.  Take the data and render it to the page using 
 [mustache.js](http://mustache.github.io/mustache.5.html).
 4.  To make the data presentable, use [Bootstrap 2.3.2](http://getbootstrap.com/2.3.2/index.html).
+
+All libraries are already imported in the `index.html` starter file. What you
+need to work on is code.
 
 Tips
 ------
