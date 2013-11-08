@@ -49,7 +49,8 @@ need to work on is code.
 
 Getting the page to display at least the name, a link to the Wiki entry, and a
 link to the InPhO page is progress worth writing us about. Attach your modified
-`index.html` to the e-mail.
+`index.html` to the e-mail. This is a research project though, so first
+attempting the advanced tasks is *highly* encouraged ;)
 
 Tips
 ------
