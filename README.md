@@ -10,9 +10,8 @@ You will be working with a HTML file that imports three libraries used
 throughout the InPhO Project. These libraries were selected due to very
 large userbases and support communities on [Google](http://google.com) and
 [StackOverflow](http://stackoverflow.com).
-*   **[jQuery](http://jquery.com)** is a
-general purpose JavaScript library used primarily for API calls and client-side
-behavior. 
+*   **[jQuery](http://jquery.com)** is a general purpose JavaScript library used
+primarily for API calls and client-side behavior. 
 *   **[Mustache.js](http://mustache.github.io/)** is a client-side templating engine used to display data
 stored in JSON format
 *   **[Bootstrap 2](http://getbootstrap.com/2.3.2/)** is a CSS framework used to make websites
@@ -21,9 +20,9 @@ pretty.
 
 Creating a basic InPhObox displaying the name should take fewer than 5 hours,
 even with no web development experience. We are largely looking at your ability
-for self-instruction, ability to search for examples, and creativity. Additional
-tasks for extending the InPhOboxes are listed at the end and are *highly*
-encouraged.
+for self-instruction, ability to search for examples, and creativity. We are
+interested in what you can do with 5 hours, so additional tasks for extending
+the InPhOboxes are listed at the end and are *highly* encouraged.
 
 The Task
 -----------
@@ -49,10 +48,10 @@ All libraries are already imported in the `index.html` starter file. What you
 need to work on is code.
 
 Getting the page to display at least the name, a link to the Wiki entry, and a
-link to the InPhO page is progress worth writing us about. We also would like to
-see how far you can take this project in about 5 hours, so move on to attempt
-the advanced tasks and display more information. Attach your modified
-`index.html` to the e-mail, along with progress notes.
+link to the InPhO page is progress worth writing us about. We would like to see
+what you can do in about 5 hours, so please attempt the advanced tasks to
+display more information. Attach your modified `index.html` to the e-mail, along
+with progress notes.
 
 Tips
 ------
