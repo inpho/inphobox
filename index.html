@@ -9,19 +9,67 @@
   <script src="lib/js/jquery-1.10.2.min.js" type="text/javascript"></script>
   <script src="lib/js/bootstrap.min.js" type="text/javascript"></script>
   <script src="lib/js/mustache.js" type="text/javascript"></script>
+  <script src="lib/js/mustache_template.js" type="text/javascript"></script><!-- passed variable template as a global var -->
 </head>
 
 <body>
-<!-- Sample alert message, remove -->
+<div class="container" style="margin-top:60px;">
+<!-- Sample alert message, remove
 <div class="alert alert-success">
   <p><strong>Congratulations!</strong> You have successfully downloaded the InPhObox starter file and opened it in a browser!</p>
-</div>
+</div-->
 
 <!-- Insert your code here -->
 <div id="renderHere"></div>
-<script type="text/javascript">
+<div class="footer">
+<p>
+InPho Project
+</p>
+</div>
+</div> <!--end container -->
 
+<script type="text/javascript">
+$(function() {
+	var query = "https://inpho.cogs.indiana.edu/thinker/3724.json";	
+	var lists = ["influenced","influenced_by","related_thinkers","teachers","students","related_ideas"];   
+	
+function JSONResults(query, lists) {
+	var queryedit = query;
+	var querypart = queryedit.split("/thinker/");	
+	var results = {};
+	$.getJSON( query, function(data) {
+		var ext = "/thinker/";
+		$.each( lists, function(i, v) {
+			var array = [];
+			if (data[v]) {
+				if (v == lists[5]) ext = "/idea/";
+				var resource = data[v]; 
+				$.each( resource, function(key, val) {
+					var querypatch = val.toString();                                 					
+					$.getJSON(querypart[0]+ext+querypatch+".json", function (subdata) {						
+						if (subdata.label.length > 0) {
+							array.push(subdata.label);							
+						}
+					});
+					results[v] = array;
+				});
+			}
+		});
+	});
+	return results;	
+}
+var results = JSONResults(query, lists);
+console.log(results); //The object is shown at the console but really can't find the reason why it's not iterable. Even Object.keys(results).length says 0. Tried so hard but failed. 
+
+               
+$.getJSON(query, results).done(function(json) {	            
+	var info = Mustache.to_html(template, json);
+	$("#renderHere").html(info);
+	});
+	//var template = $("#template").html();
+});
 </script>
 
+ 
 </body>
 </html>
