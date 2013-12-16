@@ -36,7 +36,7 @@ $(function() {
 function JSONResults(query, lists) {
 	var queryedit = query;
 	var querypart = queryedit.split("/thinker/");	
-	var results = {};
+	var results = Object.create();
 	$.getJSON( query, function(data) {
 		var ext = "/thinker/";
 		$.each( lists, function(i, v) {
